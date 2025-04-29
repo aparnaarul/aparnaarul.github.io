@@ -18,7 +18,7 @@ export default function StarsBackground() {
       y: Math.random() * window.innerHeight,
       radius: Math.random() * 1.5,
       opacity: Math.random(),
-      speed: Math.random() * 0.005 + 0.002 // how fast they twinkle
+      speed: Math.random() * 0.005 + 0.002
     }))
 
     function drawStars() {
